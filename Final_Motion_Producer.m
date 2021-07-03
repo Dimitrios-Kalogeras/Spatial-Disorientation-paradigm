@@ -8,7 +8,7 @@ n=0.4;     %in degrees/s noise MAX amplitude added to a amplitude calculated as 
 %noise is pseudorandomized
 %f_noise=0; %in HZ noise MAX frequency calculated as frequency=(f_noise/4)+rand(1,1)*(3*f_noise/4)
 %% *YOU ARE ADVISED NOT TO CHANGE ANY OTHER VALUES (Except line 12 -save directory*
-for p=20:24   % HOW MANY PARTICIPANTS
+for p=1:24   % HOW MANY PARTICIPANTS
 if save==1
 % DEFINE YOUR PREFERED SAVE DIRECTORY Change both mkdir and cd (below are my computers :D)
 %mkdir (['C:\Users\Administrator\OneDrive - Universiteit Utrecht\TNO\MatLab\ROOT\participant ' int2str(p)])
